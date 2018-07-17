@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<!-- saved from url=(0088)https://s1.2mdn.net/3471833/1450211481218/discover_300x250_Bank_turtle_OSA_5X/index.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script type="text/javascript">
+    
+      (function() {
+        var relegateNavigation = '';
+        var handleClickTagMessage = function(e) {
+          try {
+            var eventData = JSON.parse(e.data);
+          } catch (err) {
+            return;
+          }
+          if (eventData.isInitClickTag) {
+            if (eventData.clickTags) {
+              for (var i = 0; i < eventData.clickTags.length; i++) {
+                var clkTag = eventData.clickTags[i];
+                window[clkTag.name] = clkTag.url;
+              }
+            } else if (eventData.clickTag) {
+              window.clickTag = eventData.clickTag;
+            }
+            relegateNavigation = eventData.relegateNavigation;
+          }
+        };
+
+        if (open.call) {
+          window.open = function(open) {
+            return function(url, name, features) {
+              if (relegateNavigation === 'parent') {
+                var message = {'clickTag': url, 'isPostClickTag': true};
+                parent.postMessage(JSON.stringify(message), '*');
+              } else {
+                var args = [url, name];
+                if (features) {
+                  args.push(features);
+                }
+                open.apply(window, args);
+              }
+            };
+          }(window.open);
+        }
+
+        if (window.addEventListener) {
+          window.addEventListener(
+              'message', handleClickTagMessage, false);
+        } else {
+          window.attachEvent('onmessage', handleClickTagMessage);
+        }
+      })();
+    
+  </script>
+        <meta charset="utf-8">
+		<meta name="ad.size" content="width=300,height=250">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=11"> 
+        <link rel="stylesheet" type="text/css" href="style(2).css">
+    </head>
+
+ 
+		<body class="docBody">
+         <div class="banner-wrapper">
+			<div id="border"></div>
+    		<div class="turtle-img" style="transform: matrix(1, 0, 0, 1, 750, 0);"></div>
+    		<div class="banner-bg" style="visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 197);"></div>
+    		<div class="banner-elem dos-logo" style="transform: matrix(0.9, 0, 0, 0.9, -44, 95);"></div>
+    		<div class="banner-elem fdic-logo"></div>
+    		<div class="banner-elem copyright-text" style="opacity: 1; transform: matrix(1, 0, 0, 1, 0, -16);"></div>
+    		<div class="banner-elem accelarate-text" style="transform: matrix(1, 0, 0, 1, 0, 54); opacity: 0;"></div>
+    		<div class="banner-elem svPotential-text" style="opacity: 0; clip: rect(0px 199px 27.5px 0px);"></div>
+            <div class="fog" style="opacity: 0; transform: translate(-90%, 0%) matrix(1.5, 0, 0, 1.5, 0, 0);"></div>
+    		<div class="banner-elem earnOver-text" style="transform: matrix(1, 0, 0, 1, 0, -200);"></div>
+		    <div class="banner-elem national-text" style="transform: matrix(1, 0, 0, 1, 350, -200);"></div>
+		    <div class="banner-elem nSavings-text" style="transform: matrix(1, 0, 0, 1, 350, -200);"></div>
+            <div class="frame-cover" style="transform: matrix(1, 0, 0, 1, 0, -200);"></div>
+		    <div class="banner-elem frameLast"></div>
+    		 <div class="start-button" style="transform: matrix(1, 0, 0, 1, 0, 0); visibility: inherit; opacity: 1;"></div>
+    	</div>
+
+      <script src="842b046d-ffa8-46d1-8d59-57cfd055f9a6_greensock-tweenmax-1.17.min.js"></script>
+     <script src="animation.min(1).js"></script>
+      <script type="text/javascript">
+         // ClickTag
+         var clickTag = "http://www.google.com";
+         var isIOS = ((/iphone|ipad/gi).test(navigator.appVersion));
+         var myUp = isIOS ? "touchend" : "mouseup";
+         document.querySelector('.banner-wrapper').addEventListener(myUp, function () {
+             window.open(window.clickTag);
+         });
+     </script>
+    
+    
+</body></html>

@@ -1,0 +1,30 @@
+
+var ftGUID_1611560="275142EFBF304B";
+var ftConfID_1611560="2832983";
+var ftParams_1611560="ftx=&fty=&ftadz=&ftscw=&ft_custom=&ftOBA=1&ft_ifb=1&ft_domain=www.worldjournal.com&ft_referrer=http%3A%2F%2Fwww.worldjournal.com%2F3661270%2Farticle-%25E8%258F%25AF%25E4%25BA%25BA%25E5%2589%25B5fluent90-%25E8%25B3%25BA%25E9%258C%25A2%25E5%2585%25BC%25E4%25BA%25A4%25E5%258F%258B%2F%3Fref%3D%25E8%2588%258A%25E9%2587%2591%25E5%25B1%25B1%26ismobile%3Dfalse&cachebuster=885688.7391302735";
+var ftKeyword_1611560="";
+var ftCustom_1611560="";
+var ftSection_1611560="";
+var ftSegment_1611560="f5c,f5c314145300,gvf,d4g,fla,gir,eue,euh5343,eui,eug,e3t,eug404062,e3t404062,eui186144,euf1014329,hfs,hho,gwe,dfq,d4g15117738,trg_holiday,g52,hqg,hys,gx2,f5u,trg,trgelectronics,hfo,cy02254640,cy0,h43,bot,hh9,fuo,bou,bos,tmo_iPhone6sPreReg,iio,iioMKRR2LL_A,vzwftbucket_APL,ftvzwapple_SMRTPH,hfq,tmvsku_610214641922,e00,e0546692,e0646692,e01,e01138684,hh1,g6k,hfp,igl,fe6,hh91128834_1128832_1128835,hho929753,hks,hks2b1ee4068fd946c4886e2cde40e2ab49,hh113223,e0t,iiq,ivd,iba";
+var ftSegmentList_1611560=[{s:'f5c'},{m:'f5c_view',s:'f5c314145300'},{s:'gvf'},{s:'d4g',t:28220000},{s:'fla'},{s:'gir'},{s:'eue',t:27650000},{m:'c5119_mvdiv',s:'euh5343'},{s:'eui'},{s:'eug'},{s:'e3t'},{m:'c5119_mvpr',s:'eug404062'},{m:'c5119_lvppt',s:'e3t404062'},{m:'c5119_onpr',s:'eui186144'},{m:'c5119_lvdiv',s:'euf1014329'},{s:'hfs'},{s:'hho',t:29080000},{s:'gwe'},{m:'sg',s:'dfq'},{m:'c4675_v',s:'d4g15117738'},{m:'c4675_cat',s:'trg_holiday'},{s:'g52'},{s:'hqg'},{s:'hys'},{s:'gx2'},{s:'f5u'},{s:'trg',t:28940000},{m:'trg_v',s:'trgelectronics',t:28940000},{s:'hfo'},{m:'c190_v',s:'cy02254640'},{s:'cy0',t:28710300},{s:'h43'},{s:'bot'},{s:'hh9',t:29080000},{s:'fuo'},{s:'bou'},{s:'bos'},{m:'tm',s:'tmo_iPhone6sPreReg'},{m:'c4605_lpv',s:'iio',t:28840000},{m:'gc8_c',s:'iioMKRR2LL_A',t:28840000},{m:'c4605_bk',s:'vzwftbucket_APL',t:28840000},{m:'c4605_apltt',s:'ftvzwapple_SMRTPH',t:28840000},{s:'hfq'},{m:'vsku',s:'tmvsku_610214641922'},{s:'e00',t:28921952},{m:'c5118_lvdiv',s:'e0546692'},{m:'c5118_mvdiv',s:'e0646692'},{m:'c5118_vcp',s:'e01'},{m:'c5118_onp',s:'e01138684'},{s:'hh1',t:29080000},{m:'dflt',s:'g6k'},{s:'hfp'},{s:'igl'},{s:'fe6'},{m:'hh9_search',s:'hh91128834_1128832_1128835',t:29080000},{m:'hho_view',s:'hho929753',t:29080000},{s:'hks',t:29080000},{m:'hks_v',s:'hks2b1ee4068fd946c4886e2cde40e2ab49'},{m:'hh1_category',s:'hh113223',t:29080000},{s:'e0t'},{s:'iiq'},{s:'ivd'},{s:'iba'}];
+var ftRuleMatch_1611560="0";
+var ftTimestamp_1611560="1452797163";
+var ftGeoC2_1611560="us";
+var ftGeoState_1611560="ca";
+var ftGeoCity_1611560="san francisco";
+var ftISP_1611560="att internet services";
+var ftSpeed_1611560="xdsl";
+var ftDMA_1611560="807";
+var ftLong_1611560="-122.411";
+var ftLat_1611560="37.7222";
+var ftPostal_1611560="94134";
+var ftTimeZone_1611560="-800";
+var ftMobileCarrier_1611560="";
+var ftImp1611560 = {};
+ftImp1611560.privacy = "x";
+ftImp1611560.guidAge = "184";
+ftImp1611560.impID = "2935EC0F588179";
+
+
+document.write('<scr'+'ipt src="https://secure.flashtalking.com/xre/161/1611560/1275715/js/j-1611560-1275715.js" id="ftscript_m1611560" name="ftscript_m1611560"></scr'+'ipt>');
+                    
